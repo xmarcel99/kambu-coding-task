@@ -21,9 +21,9 @@ W projekcie znajduję się zwagger tworzący automatycznie dokumentację projekt
   Przykładowe wywołania:
     - http://localhost:8080/currency/convertCurrency/200/USD/AUD
     
-    - http://localhost:8080/currency/availableCurrencies
+   - http://localhost:8080/currency/availableCurrencies
     
-    - http://localhost:8080/currency/currenciesValues
+   - http://localhost:8080/currency/currenciesValues
   
  
 
