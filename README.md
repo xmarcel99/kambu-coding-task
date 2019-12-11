@@ -4,7 +4,7 @@ Currency converter.
 1. Opis projektu:
 Aplikacja korzysta z zewnetrznego serwera pobierajacego informację odnośnie kursów walut.
 Technologie użyte: Java, Mysql,Spring
-W projekcie znajduję się zwagger tworzący automatycznie dokumentację projektu.
+W projekcie znajduję się swagger tworzący automatycznie dokumentację projektu.
 
 2. Wymagania przed uruchomieniem - Java, Mysql
 
