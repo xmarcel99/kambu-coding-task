@@ -1,0 +1,21 @@
+version: "2"
+services:
+  currency:
+    image: currency
+    ports:
+      - "8080:8080"
+    networks:
+      - currency-mysql
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql:8
+    networks:
+      - currency-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=project_user
+      - MYSQL_DATABASE=project_db
+
+networks:
+  currency-mysql:
